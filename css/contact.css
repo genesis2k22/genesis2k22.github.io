@@ -142,7 +142,7 @@ nav {
 	background-color: #FFF;
 }
 
-@media (min-width: 991px) {
+@media (max-width: 991px) {
 	.mobile-menu, .menuicon {
 		display: none;
 	}
