@@ -345,7 +345,7 @@ nav {
 
 /* responsive */
 
-@media (min-width: 768px){
+@media (max-width: 991px){
     body{
         background: #2b1055;
     }
