@@ -142,7 +142,7 @@ nav {
 	background-color: #FFF;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 991px) {
 	.mobile-menu, .menuicon {
 		display: none;
 	}
@@ -345,7 +345,7 @@ nav {
 
 /* responsive */
 
-@media (max-width: 768px){
+@media (max-width: 991px){
     body{
         background: #2b1055;
     }

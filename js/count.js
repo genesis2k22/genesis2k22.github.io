@@ -1,7 +1,7 @@
-var countDate = new Date("Nov 3, 2022 09:00:00").getTime();
+var countDownDate = new Date("Nov 3, 2022 09:00:00").getTime();
 var x = setInterval(function(){
     var now = new Date().getTime();
-    var distance = countDate - now;
+    var distance = countDownDate - now;
 
     var days = Math.floor(distance / (1000 * 60 * 60 * 24));
     var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
