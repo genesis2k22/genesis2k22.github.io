@@ -359,6 +359,14 @@ section img#mountain-front{
     text-align: center;
 }
 
+.sec .bold-text{
+	margin-left: 200px;
+    margin-right: 200px;
+    font-size: 2rem;
+font-weight: 1000;
+    text-align: center;	
+}
+
 @media (max-width: 768px){
     .sec .text{
         margin-left: 5px;
