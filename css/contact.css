@@ -345,7 +345,7 @@ nav {
 
 /* responsive */
 
-@media (max-width: 991px){
+@media (max-width: 778px){
     body{
         background: #2b1055;
     }
@@ -353,14 +353,15 @@ nav {
         padding: 20px;
     }
 
-    .box{
-        grid-template-columns: 1fx;
+    .box {
+        grid-template-columns: 1fr;
         grid-template-rows: auto;
-        grid-template-areas: 
-        "form"
-        "info"
-        "map";
+        grid-template-areas:
+            "form"
+            "info"
+            "map";
     }
+
 
     .formbox .row50{
         display: flex;
@@ -372,13 +373,18 @@ nav {
         width: 100%;
     }
 
+    .inputbox textarea {
+        min-width: 0;
+    }
+
     .contact{
-        padding: 30px;
+        padding: 20px;
+        margin-top: 10px;
     }
 
     .map{
         min-height: 300px;
         padding: 0;
-    }
+    } 
 
 }

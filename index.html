@@ -4,27 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Asan Memorial | Genesis</title>
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
-    />
+    <title>Genesis | Asan Memorial</title>
+    <link rel="stylesheet" href="css/index.css" />
   </head>
-
   <body>
     <header>
       <nav>
@@ -48,64 +30,78 @@
       </nav>
 
       <div class="mobile-menu">
-        <a href="/index.html">Home</a>
-        <a href="#">Sponsors</a>
-        <a href="/events.html">Events</a>
-        <a href="/schedule.html">Schedule</a>
-        <a href="/contact-us.html">Contact us</a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Discord</a>
+        <a href="#">Contact</a>
       </div>
     </header>
 
     <section>
-      <img src="img/stars.png" id="stars" />
-      <img src="img/genesis.png" id="moon" />
-      <img src="img/mountains_behind.png" id="mountain-behind" />
-      <h2 id="text">Genesis 2022</h2>
-      <a href="https://forms.gle/ZVC8ZLuqhqSgBL9Z6" id="btn" class="btn"
-        >Register Now</a
-      >
-      <img src="img/mountains_front.png" id="mountain-front" />
+      <img src="img/curve.png" alt="curve img" class="wave" />
+      <div class="contentBx">
+        <h1>Genesis 2K22</h1>
+        <h2>1st & 2nd December, 2022</h2>
+        <p>
+          Genesis means the beginning! Genesis was first launched in 1998 by
+          providing an opportunity to the students of Higher Secondary level
+          from various schools in Chennai to exhibit their talents. Since then
+          excitement, involvement and to outshine has only grown. In fact, has
+          become one of the most sought after events among the city schools.
+        </p>
+        <div class="countdown">
+          <div class="time">
+            <div id="days"></div>
+            <span>Days</span>
+          </div>
+          <div class="time">
+            <div id="hours"></div>
+            <span>Hours</span>
+          </div>
+          <div class="time">
+            <div id="minutes"></div>
+            <span>Minutes</span>
+          </div>
+          <div class="time">
+            <div id="seconds"></div>
+            <span>Seconds</span>
+          </div>
+        </div>
+        <a href="https://forms.gle/VCWLG51vToEgjGE58" target="_blank"
+          >Register!</a
+        >
+      </div>
+      <div class="imgBx">
+        <img src="img/genesis.png" alt="Genesis Logo" />
+      </div>
+      <ul class="sci">
+        <li>
+          <a href="https://www.instagram.com/asangenesis2k22" target="_blank"
+            ><ion-icon name="logo-instagram"></ion-icon
+          ></a>
+        </li>
+        <li>
+          <a href="mailto:asangenesis2k22@gmail.com" target="_blank"
+            ><ion-icon name="mail"></ion-icon
+          ></a>
+        </li>
+        <li>
+          <a href="img/GENESIS 2K22.pdf" target="_blank"
+            ><ion-icon name="document"></ion-icon
+          ></a>
+        </li>
+      </ul>
     </section>
 
-    <div class="sec" id="sec">
-      <h1>Genesis 2022</h1>
-      <h2>November 3 & 4 2022!</h2>
-
-      <div class="launchtime">
-        <div>
-          <p id="days">00</p>
-          <span>Days</span>
-        </div>
-
-        <div>
-          <p id="hours">00</p>
-          <span>Hours</span>
-        </div>
-
-        <div>
-          <p id="minutes">00</p>
-          <span>Minutes</span>
-        </div>
-
-        <div>
-          <p id="seconds">00</p>
-          <span>Seconds</span>
-        </div>
-      </div>
-      <br /><br />
-      <p class="text">
-        Genesis means the beginning! Genesis was first launched in 1998 by
-        providing an opportunity to the students of Higher Secondary level from
-        various schools in Chennai to exhibit their talents. Since then
-        excitement, involvement and to outshine has only grown. In fact, has
-        become one of the most sought after events among the city schools.
-      </p>
-
-      <a href="#" id="btn2" class="btn2">Back!</a>
-    </div>
-
-    <script src="js/parallax.js"></script>
-    <script src="js/count.js"></script>
     <script src="js/nav.js"></script>
+    <script src="js/count.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>

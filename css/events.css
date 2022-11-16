@@ -95,7 +95,7 @@ nav {
 
 .menuicon:hover span:nth-child(2){
     transform: translateX(10px);
-    background-color: #215cdb;
+    background-color: #ff0083;
 }
 
 .menuicon.is-active span:nth-child(1){
@@ -112,7 +112,7 @@ nav {
 }
 
 .menuicon.is-active:hover span{
-    background-color: #215cdb;
+    background-color: #ff0083;
 }
 
 .mobile-menu {
@@ -171,6 +171,7 @@ img {
 .text-center .display-1{
   color: #fff;
   font-weight: 500;
+  
 }
 
 
@@ -571,4 +572,17 @@ img {
   body{
       background: #2b1055;
   }
+
+  .gallery{
+    display: flex;
+    flex-flow: column;    
+  }
+
+  .popup {
+    top: 85px;
+    left: -78px;
+    width: 800px;
+    height: 650px;
+  }
+  
 }
