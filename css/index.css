@@ -21,13 +21,9 @@ nav .logo{
     letter-spacing: 2px;
 } 
 
-nav .logo img{
-    width: 100%;
-    height: 75px;
-}
 
 nav {
-	position: relative;
+    position: relative;
 	z-index: 99;
 	display: flex;
 	justify-content: space-between;
@@ -36,6 +32,11 @@ nav {
 	padding: 1rem 1.5rem;
 }
 
+nav .logo img{
+	position: relative;
+    width: 100%;
+    height: 75px;
+}
 
 .menu {
 	display: none;
@@ -164,7 +165,7 @@ section{
 section .contentBx{
     position: relative;
     max-width: 600px;
-    z-index: 1000;
+    z-index: 10;
 }
 
 section .contentBx h1{
@@ -244,7 +245,7 @@ section .sci{
     margin-top: 40px;
     bottom: 15px;
     left: 100px;
-    z-index: 1000;
+    z-index: 1;
     display: flex;
     justify-content: center;
     align-items: center;
